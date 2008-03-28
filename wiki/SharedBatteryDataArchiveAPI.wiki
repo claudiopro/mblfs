@@ -12,6 +12,9 @@ Additionally, it offers a public API to developers who want to use battery data 
 The API entry point is the URI:
 http://burgos.emeraldion.it/mbl/api/
 
+To get the list of Mac laptop models available in the archive, use the following URI:
+http://burgos.emeraldion.it/mbl/api/list/
+
 To get the list of entries for a particular Mac laptop model `model`, use the following URI:
 http://burgos.emeraldion.it/mbl/api/list/<model>
 
