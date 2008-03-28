@@ -59,7 +59,7 @@
 		2B4B550B0D9D947B00E062AF /* powerbook17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = powerbook17.png; sourceTree = "<group>"; };
 		2B4B550C0D9D947B00E062AF /* powerbook_g3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = powerbook_g3.png; sourceTree = "<group>"; };
 		2B4B550D0D9D947B00E062AF /* powerbook_titanium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = powerbook_titanium.png; sourceTree = "<group>"; };
-		2B4B55230D9D94D800E062AF /* HardwareImages.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; name = HardwareImages.plist; path = ../HardwareImages.plist; sourceTree = "<group>"; };
+		2B4B55230D9D94D800E062AF /* HardwareImages.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = HardwareImages.plist; sourceTree = "<group>"; };
 		2B4B55820D9D959000E062AF /* MBLHWIconCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBLHWIconCache.h; sourceTree = "<group>"; };
 		2B4B55830D9D959000E062AF /* MBLHWIconCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBLHWIconCache.m; sourceTree = "<group>"; };
 		2BC15B520D8F0C7600BC8237 /* MBLFS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBLFS.h; sourceTree = "<group>"; };
