@@ -1,0 +1,381 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B4B550E0D9D947B00E062AF /* ibook.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B4B55000D9D947B00E062AF /* ibook.png */; };
+		2B4B550F0D9D947B00E062AF /* ibook_fw.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B4B55010D9D947B00E062AF /* ibook_fw.png */; };
+		2B4B55100D9D947B00E062AF /* ibook_g3.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B4B55020D9D947B00E062AF /* ibook_g3.png */; };
+		2B4B55110D9D947B00E062AF /* ibook_g4.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B4B55030D9D947B00E062AF /* ibook_g4.png */; };
+		2B4B55120D9D947B00E062AF /* macbook13.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B4B55040D9D947B00E062AF /* macbook13.png */; };
+		2B4B55130D9D947B00E062AF /* macbook13_2008.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B4B55050D9D947B00E062AF /* macbook13_2008.png */; };
+		2B4B55140D9D947B00E062AF /* macbook_air.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B4B55060D9D947B00E062AF /* macbook_air.png */; };
+		2B4B55150D9D947B00E062AF /* macbook_pro.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B4B55070D9D947B00E062AF /* macbook_pro.png */; };
+		2B4B55160D9D947B00E062AF /* macbook_pro2008.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B4B55080D9D947B00E062AF /* macbook_pro2008.png */; };
+		2B4B55170D9D947B00E062AF /* powerbook12.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B4B55090D9D947B00E062AF /* powerbook12.png */; };
+		2B4B55180D9D947B00E062AF /* powerbook15.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B4B550A0D9D947B00E062AF /* powerbook15.png */; };
+		2B4B55190D9D947B00E062AF /* powerbook17.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B4B550B0D9D947B00E062AF /* powerbook17.png */; };
+		2B4B551A0D9D947B00E062AF /* powerbook_g3.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B4B550C0D9D947B00E062AF /* powerbook_g3.png */; };
+		2B4B551B0D9D947B00E062AF /* powerbook_titanium.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B4B550D0D9D947B00E062AF /* powerbook_titanium.png */; };
+		2B4B55240D9D94D800E062AF /* HardwareImages.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2B4B55230D9D94D800E062AF /* HardwareImages.plist */; };
+		2B4B55840D9D959000E062AF /* MBLHWIconCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B4B55830D9D959000E062AF /* MBLHWIconCache.m */; };
+		2B4B55B80D9D973F00E062AF /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8D1107310486CEB800E47090 /* Info.plist */; };
+		2BC15B540D8F0C7700BC8237 /* MBLFS.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BC15B530D8F0C7700BC8237 /* MBLFS.m */; };
+		2BC15B600D8F0CAC00BC8237 /* MBLController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BC15B5F0D8F0CAC00BC8237 /* MBLController.m */; };
+		2BC15B620D8F0CC500BC8237 /* MacFUSE.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BC15B610D8F0CC500BC8237 /* MacFUSE.framework */; };
+		2BC15B710D8F0F8400BC8237 /* NSError+POSIX.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BC15B6E0D8F0F8400BC8237 /* NSError+POSIX.m */; };
+		2BC15B720D8F0F8400BC8237 /* NSImage+IconData.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BC15B700D8F0F8400BC8237 /* NSImage+IconData.m */; };
+		2BC15B740D8F0F9F00BC8237 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BC15B730D8F0F9F00BC8237 /* Accelerate.framework */; };
+		2BC15B9C0D8F10E300BC8237 /* mblfs.icns in Resources */ = {isa = PBXBuildFile; fileRef = 2BC15B9B0D8F10E300BC8237 /* mblfs.icns */; };
+		8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97319FDCFA39411CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		2B4B55000D9D947B00E062AF /* ibook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ibook.png; sourceTree = "<group>"; };
+		2B4B55010D9D947B00E062AF /* ibook_fw.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ibook_fw.png; sourceTree = "<group>"; };
+		2B4B55020D9D947B00E062AF /* ibook_g3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ibook_g3.png; sourceTree = "<group>"; };
+		2B4B55030D9D947B00E062AF /* ibook_g4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ibook_g4.png; sourceTree = "<group>"; };
+		2B4B55040D9D947B00E062AF /* macbook13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = macbook13.png; sourceTree = "<group>"; };
+		2B4B55050D9D947B00E062AF /* macbook13_2008.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = macbook13_2008.png; sourceTree = "<group>"; };
+		2B4B55060D9D947B00E062AF /* macbook_air.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = macbook_air.png; sourceTree = "<group>"; };
+		2B4B55070D9D947B00E062AF /* macbook_pro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = macbook_pro.png; sourceTree = "<group>"; };
+		2B4B55080D9D947B00E062AF /* macbook_pro2008.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = macbook_pro2008.png; sourceTree = "<group>"; };
+		2B4B55090D9D947B00E062AF /* powerbook12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = powerbook12.png; sourceTree = "<group>"; };
+		2B4B550A0D9D947B00E062AF /* powerbook15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = powerbook15.png; sourceTree = "<group>"; };
+		2B4B550B0D9D947B00E062AF /* powerbook17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = powerbook17.png; sourceTree = "<group>"; };
+		2B4B550C0D9D947B00E062AF /* powerbook_g3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = powerbook_g3.png; sourceTree = "<group>"; };
+		2B4B550D0D9D947B00E062AF /* powerbook_titanium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = powerbook_titanium.png; sourceTree = "<group>"; };
+		2B4B55230D9D94D800E062AF /* HardwareImages.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; name = HardwareImages.plist; path = ../HardwareImages.plist; sourceTree = "<group>"; };
+		2B4B55820D9D959000E062AF /* MBLHWIconCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBLHWIconCache.h; sourceTree = "<group>"; };
+		2B4B55830D9D959000E062AF /* MBLHWIconCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBLHWIconCache.m; sourceTree = "<group>"; };
+		2BC15B520D8F0C7600BC8237 /* MBLFS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBLFS.h; sourceTree = "<group>"; };
+		2BC15B530D8F0C7700BC8237 /* MBLFS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBLFS.m; sourceTree = "<group>"; };
+		2BC15B5E0D8F0CAC00BC8237 /* MBLController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBLController.h; sourceTree = "<group>"; };
+		2BC15B5F0D8F0CAC00BC8237 /* MBLController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBLController.m; sourceTree = "<group>"; };
+		2BC15B610D8F0CC500BC8237 /* MacFUSE.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacFUSE.framework; path = /Library/Frameworks/MacFUSE.framework; sourceTree = "<absolute>"; };
+		2BC15B6D0D8F0F8400BC8237 /* NSError+POSIX.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = "NSError+POSIX.h"; sourceTree = "<group>"; };
+		2BC15B6E0D8F0F8400BC8237 /* NSError+POSIX.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = "NSError+POSIX.m"; sourceTree = "<group>"; };
+		2BC15B6F0D8F0F8400BC8237 /* NSImage+IconData.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = "NSImage+IconData.h"; sourceTree = "<group>"; };
+		2BC15B700D8F0F8400BC8237 /* NSImage+IconData.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = "NSImage+IconData.m"; sourceTree = "<group>"; };
+		2BC15B730D8F0F9F00BC8237 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = /System/Library/Frameworks/Accelerate.framework; sourceTree = "<absolute>"; };
+		2BC15B9B0D8F10E300BC8237 /* mblfs.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = mblfs.icns; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* MBLFS_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBLFS_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* MBLFS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MBLFS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				2BC15B620D8F0CC500BC8237 /* MacFUSE.framework in Frameworks */,
+				2BC15B740D8F0F9F00BC8237 /* Accelerate.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				2BC15B520D8F0C7600BC8237 /* MBLFS.h */,
+				2BC15B530D8F0C7700BC8237 /* MBLFS.m */,
+				2BC15B5E0D8F0CAC00BC8237 /* MBLController.h */,
+				2BC15B5F0D8F0CAC00BC8237 /* MBLController.m */,
+				2B4B55820D9D959000E062AF /* MBLHWIconCache.h */,
+				2B4B55830D9D959000E062AF /* MBLHWIconCache.m */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2BC15B730D8F0F9F00BC8237 /* Accelerate.framework */,
+				2BC15B610D8F0CC500BC8237 /* MacFUSE.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* MBLFS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* MBLFS */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Source */,
+				29B97315FDCFA39411CA2CEA /* Source */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = MBLFS;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				2BC15B6D0D8F0F8400BC8237 /* NSError+POSIX.h */,
+				2BC15B6E0D8F0F8400BC8237 /* NSError+POSIX.m */,
+				2BC15B6F0D8F0F8400BC8237 /* NSImage+IconData.h */,
+				2BC15B700D8F0F8400BC8237 /* NSImage+IconData.m */,
+				32CA4F630368D1EE00C91783 /* MBLFS_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2B4B54D50D9D92EF00E062AF /* Images */,
+				2BC15B9B0D8F10E300BC8237 /* mblfs.icns */,
+				2B4B55230D9D94D800E062AF /* HardwareImages.plist */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				29B97318FDCFA39411CA2CEA /* MainMenu.nib */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2B4B54D50D9D92EF00E062AF /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				2B4B55000D9D947B00E062AF /* ibook.png */,
+				2B4B55010D9D947B00E062AF /* ibook_fw.png */,
+				2B4B55020D9D947B00E062AF /* ibook_g3.png */,
+				2B4B55030D9D947B00E062AF /* ibook_g4.png */,
+				2B4B55040D9D947B00E062AF /* macbook13.png */,
+				2B4B55050D9D947B00E062AF /* macbook13_2008.png */,
+				2B4B55060D9D947B00E062AF /* macbook_air.png */,
+				2B4B55070D9D947B00E062AF /* macbook_pro.png */,
+				2B4B55080D9D947B00E062AF /* macbook_pro2008.png */,
+				2B4B55090D9D947B00E062AF /* powerbook12.png */,
+				2B4B550A0D9D947B00E062AF /* powerbook15.png */,
+				2B4B550B0D9D947B00E062AF /* powerbook17.png */,
+				2B4B550C0D9D947B00E062AF /* powerbook_g3.png */,
+				2B4B550D0D9D947B00E062AF /* powerbook_titanium.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* MBLFS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "MBLFS" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MBLFS;
+			productInstallPath = "$(HOME)/Applications";
+			productName = MBLFS;
+			productReference = 8D1107320486CEB800E47090 /* MBLFS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "MBLFS" */;
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* MBLFS */;
+			projectDirPath = "";
+			targets = (
+				8D1107260486CEB800E47090 /* MBLFS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */,
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				2BC15B9C0D8F10E300BC8237 /* mblfs.icns in Resources */,
+				2B4B550E0D9D947B00E062AF /* ibook.png in Resources */,
+				2B4B550F0D9D947B00E062AF /* ibook_fw.png in Resources */,
+				2B4B55100D9D947B00E062AF /* ibook_g3.png in Resources */,
+				2B4B55110D9D947B00E062AF /* ibook_g4.png in Resources */,
+				2B4B55120D9D947B00E062AF /* macbook13.png in Resources */,
+				2B4B55130D9D947B00E062AF /* macbook13_2008.png in Resources */,
+				2B4B55140D9D947B00E062AF /* macbook_air.png in Resources */,
+				2B4B55150D9D947B00E062AF /* macbook_pro.png in Resources */,
+				2B4B55160D9D947B00E062AF /* macbook_pro2008.png in Resources */,
+				2B4B55170D9D947B00E062AF /* powerbook12.png in Resources */,
+				2B4B55180D9D947B00E062AF /* powerbook15.png in Resources */,
+				2B4B55190D9D947B00E062AF /* powerbook17.png in Resources */,
+				2B4B551A0D9D947B00E062AF /* powerbook_g3.png in Resources */,
+				2B4B551B0D9D947B00E062AF /* powerbook_titanium.png in Resources */,
+				2B4B55240D9D94D800E062AF /* HardwareImages.plist in Resources */,
+				2B4B55B80D9D973F00E062AF /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				2BC15B540D8F0C7700BC8237 /* MBLFS.m in Sources */,
+				2BC15B600D8F0CAC00BC8237 /* MBLController.m in Sources */,
+				2BC15B710D8F0F8400BC8237 /* NSError+POSIX.m in Sources */,
+				2BC15B720D8F0F8400BC8237 /* NSImage+IconData.m in Sources */,
+				2B4B55840D9D959000E062AF /* MBLHWIconCache.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		29B97318FDCFA39411CA2CEA /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29B97319FDCFA39411CA2CEA /* English */,
+			);
+			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INFOPLIST_FILE = Resources/Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = MBLFS;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				INFOPLIST_FILE = Resources/Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = MBLFS;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "MBLFS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "MBLFS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
